@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paru | Digital Architect</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="hud-corner top-left"></div>
+    <div class="hud-corner top-right"></div>
+    <div class="hud-corner bottom-left"></div>
+    <div class="hud-corner bottom-right"></div>
+
+    <button id="lang-toggle" class="lang-btn">
+        <i class="fa-solid fa-globe"></i> <span id="current-lang">EN</span>
+    </button>
+
+    <div class="container">
+        
+        <div class="profile">
+            <div class="avatar-container">
+                <img src="profile.jpg" onerror="this.src='https://ui-avatars.com/api/?name=Paru+Dev&background=111&color=9D4EDD&size=256'" alt="Paru Profile" class="avatar">
+            </div>
+            
+            <h1><span data-i18n="profile_title">Paru</span><span class="profile-suffix" data-i18n="profile_suffix">.dev</span></h1>
+            <p class="subtitle" data-i18n="subtitle">LEVEL 21 | CLASS: ARCHITECT</p>
+            <p class="bio" data-i18n="bio">Building systems, capturing moments, and evolving mindset.</p>
+
+            <div class="status-container">
+                <div class="xp-label">
+                    <span data-i18n="status_label">CURRENT QUEST</span>
+                    <span class="status-online" data-i18n="status_online">ONLINE</span>
+                </div>
+                <div class="status-text" data-i18n="status_text">
+                    Architecting the Next Big Thing
+                </div>
+                <div class="xp-bar-bg">
+                    <div class="xp-bar-fill"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="links">
+            
+            <div class="category-header">
+                <span data-i18n="cat_work">PROFESSIONAL</span>
+                <span>[OPN]</span>
+            </div>
+            </a>
+            <a href="https://github.com/paru25th" target="_blank" rel="noopener noreferrer" class="link-card">
+                <div class="link-content">
+                    <i class="fa-brands fa-github"></i>
+                    <span class="link-text" data-i18n="link_github">GitHub</span>
+                </div>
+                <i class="fa-solid fa-caret-right"></i>
+            </a>
+
+            <div class="category-header">
+                <span data-i18n="cat_social">SOCIAL FEED</span>
+                <span>[LNK]</span>
+            </div>
+            <a href="https://www.instagram.com/how_wxxe/" target="_blank" rel="noopener noreferrer" class="link-card">
+                <div class="link-content">
+                    <i class="fa-solid fa-camera-retro"></i>
+                    <span class="link-text" data-i18n="link_instagram">Instagram</span>
+                </div>
+                <i class="fa-solid fa-caret-right"></i>
+            </a>
+
+            <div class="category-header">
+                <span data-i18n="cat_game">ENTERTAINMENT</span>
+                <span>[ONL]</span>
+            </div>
+            <a href="https://steamcommunity.com/profiles/76561199090031508/" target="_blank" rel="noopener noreferrer" class="link-card">
+                <div class="link-content">
+                    <i class="fa-solid fa-gamepad"></i>
+                    <span class="link-text" data-i18n="link_steam">Steam ID</span>
+                </div>
+                <i class="fa-solid fa-caret-right"></i>
+            </a>
+
+        </div>
+
+        <footer>
+            <p><span data-i18n="footer_text">SYSTEM © 2026 Paru. CONSTRUCTED BY</span> <span class="accent-text" data-i18n="footer_designer">Mali</span>.</p>
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
